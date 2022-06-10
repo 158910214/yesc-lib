@@ -7,8 +7,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, 'lib/main.js'),
-      name: 'YOUR_LIBRARY_NAME',
-      fileName: (format) => `YOUR_LIBRARY_NAME.${format}.js`
+      name: '@yesc/lib',
+      fileName: (format) => `@yesc/lib.${format}.js`
     }
   },
   plugins: [

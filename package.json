@@ -1,16 +1,16 @@
 {
-  "name": "YOUR_LIBRARY_NAME",
+  "name": "@yesc/lib",
   "version": "1.0.0",
-  "description": "A GOOD DESCRIPTION",
+  "description": "A GOOD UTILS OF YESC-LIB",
   "files": [
     "dist"
   ],
-  "main": "./dist/YOUR_LIBRARY_NAME.umd.js",
-  "module": "./dist/YOUR_LIBRARY_NAME.es.js",
+  "main": "./dist/@yesc/lib.umd.js",
+  "module": "./dist/@yesc/lib.es.js",
   "exports": {
     ".": {
-      "import": "./dist/YOUR_LIBRARY_NAME.es.js",
-      "require": "./dist/YOUR_LIBRARY_NAME.umd.js"
+      "import": "./dist/@yesc/lib.es.js",
+      "require": "./dist/@yesc/lib.umd.js"
     }
   },
   "scripts": {
